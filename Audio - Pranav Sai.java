@@ -6,7 +6,7 @@ public class Audio {
 	
 	public Clip getAudio() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 		
-		File f= new File("C:\\Users\\Pranav\\eclipse-workspace\\GUI_AUDIO_PLAYER\\src\\AudioFiles\\song.mp3");
+		File f= new File(#File Path);
 		
 		AudioInputStream audioStream= AudioSystem.getAudioInputStream(f);
 		
